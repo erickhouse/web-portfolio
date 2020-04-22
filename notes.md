@@ -11,6 +11,12 @@
     - npm build
     - copy / paste into erickhouse.github.io repository
 
+### bulma
+
+- I sort of cheated and created a global scss override of bulma
+styles. I could not re-import bulma and override them in a module file
+it would complete change the behavior of bulma.
+- `@use` in scss doesn't work with the current webpack config. I have no idea why.
     
 ### scroll spy
  - has its own branch
@@ -33,6 +39,7 @@ and then it becomes fixed. Fixed removes the content from the document flow.
     
 ## Future
 
+- try styled components instead of css modules
 - use github actions to copy dist over
 - clicking on an item goes to a detailed page
 - have skills overflow after 5 or 6.
