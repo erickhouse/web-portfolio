@@ -23,8 +23,6 @@ export const useSpy = ({
       if (!section || !(section instanceof Element)) continue;
 
       const top = section.getBoundingClientRect().top + offsetPx;
-      //console.log(top);
-      //console.log(section.id);
       if (top < 0) {
         console.log(section.id);
         currentSectionId = i;

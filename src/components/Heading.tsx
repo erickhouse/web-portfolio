@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Heading.module.scss";
-import cn from "classnames";
 
 /**
  * Pulls from the public folder

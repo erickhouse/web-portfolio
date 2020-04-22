@@ -2,7 +2,7 @@ import React from "react";
 import { Job, Work } from "../../models/resume";
 import { Tags } from "../elements/Tags";
 import { Bullets } from "../elements/Bullets";
-import { formatDate, formatDistance } from "../elements/format";
+import {formatDate, formatDistance, formatDistanceInWords} from "../elements/format";
 
 export const WorkSection = (props: { work: Work }) => {
   return (
@@ -59,7 +59,7 @@ const Header = ({ job }: { job: Job }) => {
           </div>
           <div className="card-item">
             <div className="title is-6 is-marginless has-text-right">
-              {formatDistance(start, end)}
+              {formatDistanceInWords(start, end)}
             </div>
           </div>
         </div>

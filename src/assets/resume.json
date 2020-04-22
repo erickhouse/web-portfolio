@@ -8,22 +8,56 @@
       {
         "company": "Stryker",
         "role": "Senior software engineer",
-        "start": "2015-02-01T00:00:00",
+        "start": "2017-02-13T00:00:00",
         "end": "Present",
         "location": "Redmond, WA",
         "product": "healthcare web applications",
-        "tags": ["C#", "Javascript", "Python", "ASP.NET Core"],
-        "bullets": ["Hello", "World"]
+        "tags": [
+          "C#",
+          "ASP.NET Core",
+          "AWS",
+          "Angular 2+",
+          "Javascript",
+          "Python",
+          "Terraform",
+          "Microservices",
+          "Python",
+          "DynamoDB",
+          "S3"
+        ],
+        "bullets": [
+          "Re-engineered legacy subsystems using a microservices based architecture hosted in the AWS cloud",
+          "Successfully integrated web services and API gateways for a newly acquired company",
+          "Navigated the communication and requirements gathering between 2 remote teams"
+        ]
       },
       {
-        "company": "Stryker",
-        "role": "Senior software engineer",
-        "start": "2015-02-01T00:00:00",
-        "end": "2018-02-01T00:00:00",
-        "location": "Redmond, WA",
-        "product": "healthcare web applications",
-        "tags": ["C#", "Javascript"],
-        "bullets": ["Hello", "World"]
+        "company": "Sonosite",
+        "role": "Embedded software engineer",
+        "start": "2015-05-01T00:00:00",
+        "end": "2017-02-01T00:00:00",
+        "location": "Bothell, WA",
+        "product": "ultrasound devices",
+        "tags": ["C#", "C++", "WPF", "XAML"],
+        "bullets": [
+          "Translated the design team’s ideas into proper software abstraction",
+          "Redesigned the majority of an existing subsystem, resulting in a 50% code reduction",
+          "Quickly exceeded the expectations of a Software Developer 1 and was promoted in less than 7 months",
+          "Proposed an original solution to along standing business problem and was personally tasked with the prototype implementation"
+        ]
+      },
+      {
+        "company": "Cricket Moon Media",
+        "role": "Contract software developer",
+        "start": "2014-12-01T00:00:00",
+        "end": "2015-03-01T00:00:00",
+        "location": "Seattle, WA",
+        "product": "web games",
+        "tags": ["Python", "Haxe"],
+        "bullets": [
+          "Developed browser games for high profile customers",
+          "Initiated the creation of software for automating an error prone, manual task,that was wasting up the 3 hours every project milestone"
+        ]
       }
     ]
   },
@@ -31,12 +65,26 @@
     "heading": "Projects",
     "items": [
       {
-        "name": "Impact Group" ,
-        "start": "2015-02-01T00:00:00",
+        "name": "Personal Website",
+        "start": "2020-03-01T00:00:00",
+        "end": "2020-04-01T00:00:00",
+        "description": "This web site",
+        "bullets": [
+          "With the goal to showcase projects, initiative, and knowledge, built a personal website from scratch, using react"
+        ],
+        "tags": ["React", "CSS", "HTML"]
+      },
+      {
+        "name": "Stock Market Modeling",
+        "start": "2016-04-01T00:00:00",
         "end": "2018-02-01T00:00:00",
-        "description": "built stock market models",
-        "bullets": ["cool", "stuff"],
-        "tags": ["R", "Kotlin", "Python"]
+        "description": "provided ml engineering expertise for a team of 3",
+        "bullets": [
+          "Optimized a query from 30 seconds down to 10 milliseconds over a 32GB dataset",
+          "Built and maintained proprietary R packages in order for the team to iterate on strategies as fast as possible",
+          "Became an advanced user of the dplyr package and the tidyverse paradigm"
+        ],
+        "tags": ["R", "Postgres"]
       }
     ]
   },
@@ -57,7 +105,46 @@
     "categories": [
       {
         "title": "Languages",
-        "tags": ["C#", "Docker"]
+        "tags": [
+          "C#",
+          "TypeScript",
+          "Python",
+          "HTML",
+          "CSS",
+          "Kotlin",
+          "Java",
+          "R",
+          "Scala",
+          "C++"
+        ]
+      },
+      {
+        "title": "Cloud",
+        "tags": [
+          "AWS",
+          "DynamoDB",
+          "S3",
+          "Docker",
+          "Lambda",
+          "Terraform",
+          "Google Cloud",
+          "Firestore"
+        ]
+      },
+      {
+        "title": "Frameworks / Libraries",
+        "tags": ["ASP.NET Core", "Angular 2+", "React", "D3", "Flask"]
+      },
+      {
+        "title": "Concepts",
+        "tags": [
+          "Microservices",
+          "FP",
+          "OO",
+          "Web Design",
+          "DevOps",
+          "ML Engineering"
+        ]
       }
     ]
   }

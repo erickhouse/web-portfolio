@@ -1,10 +1,9 @@
 import { Job, Project, Projects } from "../../models/resume";
 import { Tags } from "../elements/Tags";
 import React from "react";
-import { inspect } from "util";
 import styles from "./Content.module.scss";
 import { Bullets } from "../elements/Bullets";
-import {formatDate, formatDistance} from "../elements/format";
+import {formatDate, formatDistance, formatDistanceInWords} from "../elements/format";
 
 export const ProjectsSection = (props: { projects: Projects }) => {
   return (
@@ -44,7 +43,7 @@ const Header = ({ project }: { project: Project }) => {
           </div>
           <div className="card-item">
             <div className="title is-6 is-marginless has-text-right">
-              {formatDistance(start, end)}
+              {formatDistanceInWords(start, end)}
             </div>
           </div>
         </div>

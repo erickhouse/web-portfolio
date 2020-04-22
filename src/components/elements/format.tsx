@@ -2,7 +2,11 @@ import * as dt from "date-fns";
 import React from "react";
 
 export function formatDate(date: Date): string {
-  return dt.format(date, "MMM yyyy");
+  return dt.format(date, "MMMM yyyy");
+}
+
+export function formatDistanceInWords(start: Date, end: Date): string {
+  return dt.formatDistanceStrict(start, end);
 }
 
 export function formatDistance(start: Date, end: Date) {
