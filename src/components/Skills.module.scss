@@ -1,0 +1,15 @@
+@import "../styles/variables";
+
+
+.border {
+  border-bottom: 1px solid $main;
+}
+
+.subtitle {
+  margin-bottom: 1em;
+}
+
+.title {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}

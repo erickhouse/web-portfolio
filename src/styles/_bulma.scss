@@ -1,0 +1,14 @@
+@import "variables";
+
+/**
+  Override bulma variables here.
+  example: $primary: $purple;
+ */
+
+$primary: $main;
+
+/**
+ bulma must be imported before the extensions
+ */
+@import "~bulma";
+@import "~bulma-extensions";

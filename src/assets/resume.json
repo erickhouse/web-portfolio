@@ -1,0 +1,64 @@
+{
+  "objective": {
+    "body": "Senior software engineer with 5 years experience"
+  },
+  "work": {
+    "heading": "Work Experience",
+    "jobs": [
+      {
+        "company": "Stryker",
+        "role": "Senior software engineer",
+        "start": "2015-02-01T00:00:00",
+        "end": "Present",
+        "location": "Redmond, WA",
+        "product": "healthcare web applications",
+        "tags": ["C#", "Javascript", "Python", "ASP.NET Core"],
+        "bullets": ["Hello", "World"]
+      },
+      {
+        "company": "Stryker",
+        "role": "Senior software engineer",
+        "start": "2015-02-01T00:00:00",
+        "end": "2018-02-01T00:00:00",
+        "location": "Redmond, WA",
+        "product": "healthcare web applications",
+        "tags": ["C#", "Javascript"],
+        "bullets": ["Hello", "World"]
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Projects",
+    "items": [
+      {
+        "name": "Impact Group" ,
+        "start": "2015-02-01T00:00:00",
+        "end": "2018-02-01T00:00:00",
+        "description": "built stock market models",
+        "bullets": ["cool", "stuff"],
+        "tags": ["R", "Kotlin", "Python"]
+      }
+    ]
+  },
+  "education": {
+    "heading": "Education",
+    "schools": [
+      {
+        "name": "University of Washington",
+        "major": "BS in computer science",
+        "end": "2015-12-01T00:00:00",
+        "start": "2013-09-01T00:00:00",
+        "logo": "uw"
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Skills",
+    "categories": [
+      {
+        "title": "Languages",
+        "tags": ["C#", "Docker"]
+      }
+    ]
+  }
+}

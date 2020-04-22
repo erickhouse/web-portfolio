@@ -1,0 +1,46 @@
+@import "styles/variables";
+
+.side {
+  //position: fixed;
+  //width: 50px;
+  //right: 0;
+  //left: 0;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.right {
+  position: fixed;
+  left: 0;
+}
+
+.main {
+  //overflow-y: auto;
+  //position: relative;
+}
+
+.top {
+  //position: fixed;
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 40px;
+}
+
+.page {
+  //height: 100vh;
+  //position: fixed;
+  //overflow: hidden;
+}
+
+body, html {
+  //overflow: hidden;
+}
+
+//#root {
+//  overflow: hidden;
+//}

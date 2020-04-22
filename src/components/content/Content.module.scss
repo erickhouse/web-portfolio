@@ -1,0 +1,22 @@
+
+@import "../../styles/variables";
+
+
+.heading {
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+.border {
+  border-bottom: 1px solid $main;
+}
+
+.last {
+  height: 100vh;
+}
+
+.description {
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+}
+
