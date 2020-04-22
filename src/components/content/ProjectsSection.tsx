@@ -1,9 +1,9 @@
-import { Job, Project, Projects } from "../../models/resume";
+import { Project, Projects } from "../../models/resume";
 import { Tags } from "../elements/Tags";
 import React from "react";
 import styles from "./Content.module.scss";
 import { Bullets } from "../elements/Bullets";
-import {formatDate, formatDistance, formatDistanceInWords} from "../elements/format";
+import {formatDate, formatDistanceInWords} from "../elements/format";
 
 export const ProjectsSection = (props: { projects: Projects }) => {
   return (

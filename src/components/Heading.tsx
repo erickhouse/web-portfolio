@@ -4,8 +4,8 @@ import styles from "./Heading.module.scss";
 /**
  * Pulls from the public folder
  */
-const pdfPath = "/text.txt";
-const pdfName = "cool.txt";
+const pdfPath = "/resume.pdf";
+const pdfName = "resume.pdf";
 
 export const Heading = () => {
   return (

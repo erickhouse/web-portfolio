@@ -1,10 +1,9 @@
 import styles from "./Content.module.scss";
 import cn from "classnames";
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import "./bulma.override.scss";
 import { WorkSection } from "./WorkSection";
 import { Resume, Section } from "../../models/resume";
-import { useSpy } from "../../hooks/spy.hook";
 import { ProjectsSection } from "./ProjectsSection";
 import { EducationSection } from "./EducationSection";
 
@@ -40,16 +39,6 @@ export const Content = (props: {
     [Section.Projects, useRef(null)],
     [Section.Education, useRef(null)],
   ]);
-
-  const spy = {
-    activeSectionDefault: 0,
-    offsetPx: 0,
-    sectionElementRefs: [...sections.values()],
-    throttleMs: 100,
-  };
-  const activeIndex = useSpy(spy);
-  const active = [...sections.keys()][activeIndex];
-  useEffect(() => props.setSection({ active: active }), [active]);
 
   return (
     <div>

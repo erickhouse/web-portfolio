@@ -8,7 +8,7 @@ export const Tags = (props: { tags: string[] }) => {
   const maybeExpandButton =
     props.tags.length > 3 ? (
       <span
-        className="tag is-white button"
+        className="tag is-white has-text-link button"
         onClick={() => setState({ expanded: !state.expanded })}
       >
         <span className="icon is-small">

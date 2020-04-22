@@ -1,18 +1,6 @@
 import React from "react";
 import cn from "classnames";
-
-
-function isViewingSection(section: string): boolean {
-  const el = document.querySelector(`#${section}`);
-  const rect = el?.getBoundingClientRect();
-  // const top = rect?.top ?? 0;
-  // const bottom = rect?.bottom ?? 0;
-  // return top >= 0 && bottom <= window.innerHeight;
-  const windowY = window.scrollY;
-  const topOffset = rect?.top ?? 0 - windowY;
-  const bottomOffset = rect?.bottom ?? 0 - windowY;
-  return topOffset <= 0 && bottomOffset > 0;
-}
+import styles from "./SideNav.module.scss";
 
 export const SideNav = (props: {
   active: string;
@@ -21,8 +9,8 @@ export const SideNav = (props: {
 }) => {
   const links = props.sections.map((section, key) => {
     return (
-      <li key={key} onClick={() => props.setSection({active: section})}>
-        <a className={cn({ "is-active": section === props.active })} href={`#${section}`}>
+      <li className={styles.link} key={key} onClick={() => props.setSection({active: section})}>
+        <a className={cn({ "is-active": section === props.active }, "is-link")} href={`#${section}`}>
           {section}
         </a>
       </li>
@@ -31,7 +19,7 @@ export const SideNav = (props: {
   return (
     <aside className="menu">
       <p className="menu-label">Sections</p>
-      <ul className="menu-list is-active">{links}</ul>
+      <ul className={styles.group}>{links}</ul>
     </aside>
   );
 };
